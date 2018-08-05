@@ -1,0 +1,1 @@
+C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\fin_app_UWP.csproj;arm

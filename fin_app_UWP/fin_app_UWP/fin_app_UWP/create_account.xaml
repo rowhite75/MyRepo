@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="fin_app_UWP.create_account"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:fin_app_UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="create_account_txt" HorizontalAlignment="Center" Margin="0,10,0,0" Text="Create An Account" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22"/>
+        <TextBox x:Name="create_email" HorizontalAlignment="Left" Margin="138,136,0,0" Text="" VerticalAlignment="Top" Width="145" PlaceholderText="Email"/>
+        <TextBox x:Name="create_password" HorizontalAlignment="Left" Margin="138,227,0,0" Text="" VerticalAlignment="Top" Width="145" PlaceholderText="Password"/>
+        <Button Content="Create Account" HorizontalAlignment="Left" Margin="138,366,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click"/>
+
+    </Grid>
+</Page>
