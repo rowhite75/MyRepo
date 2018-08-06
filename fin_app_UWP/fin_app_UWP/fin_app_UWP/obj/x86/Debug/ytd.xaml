@@ -9,11 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button x:ConnectionId='2' x:Name="home_btn" Content="Dashboard" HorizontalAlignment="Left" Margin="325,28,0,0" VerticalAlignment="Top"                       />
+        <Button x:ConnectionId='2' x:Name="home_btn" Content="Dashboard" HorizontalAlignment="Left" Margin="506,66,0,0" VerticalAlignment="Top"                       />
         <TextBlock x:ConnectionId='3' x:Name="ytd_income_txt" HorizontalAlignment="Left" Margin="109,138,0,0" Text="Income" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBlock x:ConnectionId='4' x:Name="ytd_expense_txt" HorizontalAlignment="Left" Margin="216,138,0,0" Text="Expenses" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <ListView HorizontalAlignment="Left" Height="100" Margin="575,158,0,0" VerticalAlignment="Top" Width="319"/>
-        <ListView x:ConnectionId='5' x:Name="TotalsList">
+        <ListView x:ConnectionId='5' x:Name="TotalsList" HorizontalAlignment="Left" Height="761" Margin="87,176,0,0" VerticalAlignment="Top" Width="689">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
@@ -21,12 +20,12 @@
                            Margin="0,0,0,0"
                            FontSize="14"
                            Foreground="DarkGray"/>
-                        <TextBlock Text="{Binding MonthlyExpenses}" 
+                        <TextBlock Text="{Binding MontlyIncome}" 
                            Margin="60,0,0,0"
                            FontSize="14"
                            Foreground="DarkGray"/>
-                        <TextBlock Text="{Binding MontlyIncome}" 
-                           Margin="120,0,0,0"
+                        <TextBlock Text="{Binding MonthlyExpenses}"
+                           Margin="140,0,0,0"
                            FontSize="14"
                            Foreground="DarkGray"/>
                     </Grid>
@@ -34,6 +33,6 @@
             </ListView.ItemTemplate>
         </ListView>
     </Grid>
-    
+
 </Page>
 

@@ -26,8 +26,9 @@ namespace fin_app_UWP
         public dashboard()
         {
             this.InitializeComponent();
-            this.TxtBlockTotalMonthlyExpenses.Text = new MonthlyTotal().MonthlyExpenses.ToString("C");
-            this.TxtBlockTotalMonthlyIncome.Text = new MonthlyTotal().MontlyIncome.ToString("C");
+            MonthlyTotal monthlyTotal = FinAppService.Service.Instance.GetMonthlyTotal(DateTime.Now.Date);
+            this.TxtBlockTotalMonthlyExpenses.Text = monthlyTotal.MonthlyExpenses.ToString("C");
+            this.TxtBlockTotalMonthlyIncome.Text = monthlyTotal.MontlyIncome.ToString("C");
         }
 
         private void ytd_btn_Click(object sender, RoutedEventArgs e)

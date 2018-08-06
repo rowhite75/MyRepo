@@ -34,12 +34,12 @@ namespace fin_app_UWP
 
         private void income_add_btn_Click(object sender, RoutedEventArgs e)
         {
-            FinAppService.Service.Instance.AddIncomeAmount(DateTime.Now, Decimal.Parse(this.income_txt.Text));
+            FinAppService.Service.Instance.AddIncomeAmount(this.DatePickerIncomeDate.Date.DateTime, Decimal.Parse(this.income_txt.Text));
         }
 
         private void add_bill_btn_Click(object sender, RoutedEventArgs e)
         {
-            //FinAppService.Service.Instance.AddBill()
+            FinAppService.Service.Instance.AddBill(this.DatePickerBillDate.Date.DateTime, Decimal.Parse(this.TextBoxBillAmount.Text), this.TxtBoxBillName.Text);
         }
     }
 }

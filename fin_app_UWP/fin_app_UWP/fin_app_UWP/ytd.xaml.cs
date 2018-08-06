@@ -28,18 +28,26 @@ namespace fin_app_UWP
         public ytd()
         {
             this.InitializeComponent();
-            List<MonthlyTotal> ytdTotals = new List<MonthlyTotal>();
-            ytdTotals.Add(new MonthlyTotal { Month = "January", MonthlyExpenses = 4000.00M, MontlyIncome = 3000.00M });
-            ytdTotals.Add(new MonthlyTotal { Month = "Febuary", MonthlyExpenses = 3030.00M, MontlyIncome = 1050.00M });
+            List<object> ytdTotals = new List<object>();
             List<Income> incomes = FinAppService.Service.Instance.GetIncomes();
+            List<Bill> bills = FinAppService.Service.Instance.GetBills();
+            List<int> months = bills.Select(a => a.ReceivedDate.Month).Distinct().OrderByDescending(b => b).ToList();
 
+            foreach (var month in months)
+            {
+                ytdTotals.Add(new {
+                    Month = bills.Find(a => a.ReceivedDate.Month == month).ReceivedDate.ToString("MMMM"),
+                    MonthlyExpenses = bills.FindAll(bill => bill.ReceivedDate.Month == month).ToList().Sum(y => y.Amount).ToString("C"),
+                    MontlyIncome = incomes.FindAll(income => income.ReceivedDate.Month == month).ToList().Sum(z => z.Amount).ToString("C")
+                });
+            }
 
             TotalsList.ItemsSource = ytdTotals;
         }
 
         private void home_btn_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(dashboard));
+            new MyWindowUtility().Show(new dashboard());
         }
     }
 }
