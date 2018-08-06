@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>f34d7988-6a48-4d0a-b956-477cc30d9ec9</PackageIdentityName>
     <PackageIdentityPublisher>CN=Wes</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>9C4D6A8EA64CBD9CA2F2D326896E9D6C1B4DBE10DF3ECA3D7B110BA87936B6B6</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>f34d7988-6a48-4d0a-b956-477cc30d9ec9_1.0.0.0_x86__jwhz2ftd1fgqa</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>f34d7988-6a48-4d0a-b956-477cc30d9ec9_jwhz2ftd1fgqa!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-08-05T21:52:15.725</Modified>
+      <Modified>2018-08-06T02:18:10.368</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\fin_app_UWP.exe">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\fin_app_UWP.exe">
       <PackagePath>entrypoint\fin_app_UWP.exe</PackagePath>
-      <Modified>2018-08-05T21:52:14.678</Modified>
+      <Modified>2018-08-06T02:18:03.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,96 +495,96 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-12T04:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\FinAppCommon\bin\x86\Debug\FinAppCommon.dll">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\FinAppCommon\bin\x86\Debug\FinAppCommon.dll">
       <PackagePath>FinAppCommon.dll</PackagePath>
       <Modified>2018-08-05T21:50:55.847</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\FinAppService\bin\x86\Debug\FinAppService.dll">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\FinAppService\bin\x86\Debug\FinAppService.dll">
       <PackagePath>FinAppService.dll</PackagePath>
       <Modified>2018-08-05T21:50:57.033</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-08-04T16:05:47.450</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2018-08-04T16:05:31.831</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-04T16:05:31.851</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-04T16:05:31.872</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-04T16:05:31.894</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-04T16:05:31.913</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-04T16:05:31.933</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-04T16:05:31.951</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\fin_app_UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\fin_app_UWP.xr.xml">
       <PackagePath>fin_app_UWP.xr.xml</PackagePath>
       <Modified>2018-08-05T21:36:16.129</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-08-05T21:52:14.433</Modified>
+      <Modified>2018-08-06T02:18:02.862</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\create_account.xbf">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\create_account.xbf">
       <PackagePath>create_account.xbf</PackagePath>
-      <Modified>2018-08-05T21:52:14.434</Modified>
+      <Modified>2018-08-06T02:18:02.864</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\dashboard.xbf">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\dashboard.xbf">
       <PackagePath>dashboard.xbf</PackagePath>
-      <Modified>2018-08-05T21:52:14.435</Modified>
+      <Modified>2018-08-06T02:18:02.870</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\edit.xbf">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\edit.xbf">
       <PackagePath>edit.xbf</PackagePath>
-      <Modified>2018-08-05T21:52:14.436</Modified>
+      <Modified>2018-08-06T02:18:02.871</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-08-05T21:52:14.437</Modified>
+      <Modified>2018-08-06T02:18:02.873</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\reset_password.xbf">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\reset_password.xbf">
       <PackagePath>reset_password.xbf</PackagePath>
-      <Modified>2018-08-05T21:52:14.439</Modified>
+      <Modified>2018-08-06T02:18:02.874</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\ytd.xbf">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\ytd.xbf">
       <PackagePath>ytd.xbf</PackagePath>
-      <Modified>2018-08-05T21:52:14.440</Modified>
+      <Modified>2018-08-06T02:18:02.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-04-20T03:01:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-08-05T21:51:00.570</Modified>
+      <Modified>2018-08-06T02:18:07.319</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\Core\fin_app_UWP.exe">
+    <AppxPackagedFile Include="C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\bin\x86\Debug\Core\fin_app_UWP.exe">
       <PackagePath>fin_app_UWP.exe</PackagePath>
-      <Modified>2018-08-05T21:52:15.721</Modified>
+      <Modified>2018-08-06T02:18:10.257</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

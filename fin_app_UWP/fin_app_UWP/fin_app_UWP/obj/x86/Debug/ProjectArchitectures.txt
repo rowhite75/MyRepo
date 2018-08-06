@@ -1,4 +1,4 @@
-C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\fin_app_UWP\fin_app_UWP.csproj;x86
-C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\FinAppCommon\FinAppCommon.csproj;x86
-C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\FinAppCommon\FinAppCommon.csproj;x86
-C:\Users\roger\Documents\WES\fin_app_UWP\fin_app_UWP\FinAppService\FinAppService.csproj;x86
+C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\fin_app_UWP\fin_app_UWP.csproj;x86
+C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\FinAppCommon\FinAppCommon.csproj;x86
+C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\FinAppCommon\FinAppCommon.csproj;x86
+C:\Users\roger\Documents\MyRepo\fin_app_UWP\fin_app_UWP\FinAppService\FinAppService.csproj;x86

@@ -10,17 +10,17 @@
 
     <Grid>
         <TextBox x:Name="income_txt" HorizontalAlignment="Left" Margin="66,88,0,0" Text="" VerticalAlignment="Top" PlaceholderText="Enter Amount"/>
-        <Button x:Name="income_add_btn" Content="Add" HorizontalAlignment="Left" Margin="269,88,0,0" VerticalAlignment="Top" Click="income_add_btn_Click"/>
+        <Button x:Name="income_add_btn" Content="Add" HorizontalAlignment="Left" Margin="540,88,0,0" VerticalAlignment="Top" Click="income_add_btn_Click" RenderTransformOrigin="0.156,0.438"/>
         <TextBlock x:Name="add_txt" HorizontalAlignment="Left" Margin="70,42,0,0" Text="Add Income" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBox x:Name="TxtBoxBillName" HorizontalAlignment="Left" Margin="62,221,0,0" Text="" VerticalAlignment="Top" PlaceholderText="Bill Name"/>
         <TextBlock HorizontalAlignment="Left" Margin="66,184,0,0" Text="Add A Bill" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:Name="add_bill_amount" HorizontalAlignment="Center" Margin="0,221,0,0" Text="" VerticalAlignment="Top" PlaceholderText="Amount"/>
-        <Button x:Name="add_bill_btn" Content="Add" HorizontalAlignment="Left" Margin="62,335,0,0" VerticalAlignment="Top" Click="add_bill_btn_Click"/>
-        <DatePicker x:Name="DatePickerBillDate" HorizontalAlignment="Left" Margin="62,281,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="add_bill_btn" Content="Add" HorizontalAlignment="Left" Margin="605,221,0,0" VerticalAlignment="Top" Click="add_bill_btn_Click" RenderTransformOrigin="11.115,-3.156"/>
+        <DatePicker x:Name="DatePickerBillDate" HorizontalAlignment="Left" Margin="274,221,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="68,402,0,0" Text="Delete A Bill" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <ListView HorizontalAlignment="Left" Height="100" Margin="70,466,0,0" VerticalAlignment="Top" Width="100"/>
         <Button x:Name="home_btn" Content="Dashboard" HorizontalAlignment="Left" Margin="314,10,0,0" VerticalAlignment="Top" Click="home_btn_Click"/>
-        <TextBox x:Name="TextBoxBillAmount" HorizontalAlignment="Left" Margin="398,281,0,0" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxBillAmount" HorizontalAlignment="Left" Margin="173,221,0,0" Text="" PlaceholderText="Amount"  VerticalAlignment="Top" RenderTransformOrigin="-0.372,-1.281"/>
+        <DatePicker x:Name="DatePickerIncomeDate" HorizontalAlignment="Left" Margin="213,88,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

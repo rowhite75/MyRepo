@@ -27728,11 +27728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roger\\Documents\\WES\\fin_app_UWP\\fin_app_UWP\\fin_app_UWP\\fin_app_UWP.csproj",
+      "projectUniqueName": "C:\\Users\\roger\\Documents\\MyRepo\\fin_app_UWP\\fin_app_UWP\\fin_app_UWP\\fin_app_UWP.csproj",
       "projectName": "fin_app_UWP",
-      "projectPath": "C:\\Users\\roger\\Documents\\WES\\fin_app_UWP\\fin_app_UWP\\fin_app_UWP\\fin_app_UWP.csproj",
+      "projectPath": "C:\\Users\\roger\\Documents\\MyRepo\\fin_app_UWP\\fin_app_UWP\\fin_app_UWP\\fin_app_UWP.csproj",
       "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roger\\Documents\\WES\\fin_app_UWP\\fin_app_UWP\\fin_app_UWP\\obj\\",
+      "outputPath": "C:\\Users\\roger\\Documents\\MyRepo\\fin_app_UWP\\fin_app_UWP\\fin_app_UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -27752,11 +27752,11 @@
       "frameworks": {
         "uap10.0.15063": {
           "projectReferences": {
-            "C:\\Users\\roger\\Documents\\WES\\fin_app_UWP\\fin_app_UWP\\FinAppCommon\\FinAppCommon.csproj": {
-              "projectPath": "C:\\Users\\roger\\Documents\\WES\\fin_app_UWP\\fin_app_UWP\\FinAppCommon\\FinAppCommon.csproj"
+            "C:\\Users\\roger\\Documents\\MyRepo\\fin_app_UWP\\fin_app_UWP\\FinAppCommon\\FinAppCommon.csproj": {
+              "projectPath": "C:\\Users\\roger\\Documents\\MyRepo\\fin_app_UWP\\fin_app_UWP\\FinAppCommon\\FinAppCommon.csproj"
             },
-            "C:\\Users\\roger\\Documents\\WES\\fin_app_UWP\\fin_app_UWP\\FinAppService\\FinAppService.csproj": {
-              "projectPath": "C:\\Users\\roger\\Documents\\WES\\fin_app_UWP\\fin_app_UWP\\FinAppService\\FinAppService.csproj"
+            "C:\\Users\\roger\\Documents\\MyRepo\\fin_app_UWP\\fin_app_UWP\\FinAppService\\FinAppService.csproj": {
+              "projectPath": "C:\\Users\\roger\\Documents\\MyRepo\\fin_app_UWP\\fin_app_UWP\\FinAppService\\FinAppService.csproj"
             }
           }
         }

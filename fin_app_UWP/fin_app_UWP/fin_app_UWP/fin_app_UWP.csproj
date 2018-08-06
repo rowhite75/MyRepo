@@ -112,7 +112,6 @@
     <Compile Include="reset_password.xaml.cs">
       <DependentUpon>reset_password.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Singleton.cs" />
     <Compile Include="ytd.xaml.cs">
       <DependentUpon>ytd.xaml</DependentUpon>
     </Compile>
